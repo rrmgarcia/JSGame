@@ -1,0 +1,52 @@
+#header {
+    position: absolute;
+    top: 7.3vh;
+    left:0;
+    background-color: #3d4585;
+    width: 100vw;
+}
+
+#todo {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 0;
+    margin: 5vh 0px 0 20vh;
+    top: 30vh;
+    background-color: #878dbd;
+    padding: 20px;
+    width: 20vw;
+}
+
+#tasksToDo{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 0;
+    margin: 5vh 20vh 0 0;
+    top: 30vh;
+    background-color: #878dbd;
+    padding: 20px;
+    width: 40vw;
+}
+
+#task {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.actionButton{
+    display: flex;
+    flex-direction: row;
+    background-color: #707ac9;
+    margin: 3px;
+    width: 80px;
+    align-items: center;
+    justify-content: center;
+}
+
+.taskList {
+    background-color: #afb4df;
+    font-size: large;
+}

@@ -1,0 +1,32 @@
+#nav {
+  position: absolute;
+  width: 100%;
+  display: flex;
+  top: 0;
+  left: 0;
+  justify-content: space-between;
+  background-color: #8392ff;
+}
+
+#nav > h2 {
+  margin-left: 80px;
+}
+#navUL {
+  display: flex;
+  list-style-type: none;
+  margin-right: 80px;
+}
+
+.navLi {
+  margin: 0 10px;
+  padding: 5px;
+  font-size: larger;
+}
+
+.navLi:hover{
+    background-color: #a0aaf8;
+}
+
+a {
+    text-decoration: none;
+}
